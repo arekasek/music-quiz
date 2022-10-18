@@ -1,0 +1,144 @@
+body, html{
+    font-family: Helvetica;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: rgba(255, 255, 255, 0.21);
+    width: 20%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container-answers{
+    background: rgba(255, 255, 255, 0.21);
+    width: 20%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+
+.buttons button{
+    align-items: center;
+    height:5rem;
+    width: 50%;
+    border-radius: 50px;
+    border:0px;
+    margin: 10px;
+    background: linear-gradient( 109.6deg, rgba(156, 252, 247, 0.24) 11.2%, rgba(110, 124, 251, 0.571) 91.1% );
+    font-size: 200%;
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-weight: 800; 
+    text-align: center; 
+    text-transform: uppercase; 
+    transition: width 250ms, font-size 250ms;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.buttons button:hover{
+    background: linear-gradient(109.6deg, rgba(110, 124, 251, 0.571) 11.2% , rgba(156, 252, 247, 0.24) 91.1%);
+    width: 80%;
+    font-size: 250%;
+}
+.buttons button:active{
+    position: relative;
+    top: 5px;
+}
+.answer button{
+    align-items: center;
+    height:5rem;
+    width: 50%;
+    border-radius: 50px;
+    border:0px;
+    margin: 10px;
+    background: linear-gradient( 109.6deg, rgba(156, 252, 247, 0.24) 11.2%, rgba(110, 124, 251, 0.571) 91.1% );
+    font-size: 100%;
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-weight: 800; 
+    text-align: center; 
+    text-transform: uppercase; 
+    transition: width 250ms, font-size 250ms;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.answer  button:hover{
+    background: linear-gradient(109.6deg, rgba(110, 124, 251, 0.571) 11.2% , rgba(156, 252, 247, 0.24) 91.1%);
+    width: 80%;
+    font-size: 150%;
+}
+.answer button:active{
+    position: relative;
+    top: 5px;
+}
+.image-top{
+    clear: both;
+    width: 100%;
+
+}
+.image-top img{
+    height: 50%;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.player{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.buttons-play{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+}
+.buttons-pause{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+}
+.buttons-play input[type=image]{
+    padding: 20px 15px 0px 10px;
+    height: 50%;
+    width: 50%;
+    margin: 0px;
+    opacity: 0.6;
+}
+.buttons-pause input[type=image]{
+    padding: 20px 15px 0px 10px;
+    height: 50%;
+    width: 50%;
+    margin: 0px;
+    scale: 1.4;
+    opacity: 0.8;
+}
+div#timeline1 {
+    width: 100%;
+    background: red;
+    display: block;
+}
+
+div#seekObj1 {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+}
