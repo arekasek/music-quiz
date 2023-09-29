@@ -29,6 +29,13 @@ body, html{
     border-radius: 30px;
     margin-left: 5%;
 }
+.container p{
+    font-size: 200%;
+    color: white;
+    font-weight: 800; 
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3); 
+}
 
 .buttons button{
     align-items: center;
@@ -46,6 +53,7 @@ body, html{
     text-transform: uppercase; 
     transition: width 250ms, font-size 250ms;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
 
 }
 .buttons button:hover{
@@ -73,6 +81,7 @@ body, html{
     text-transform: uppercase; 
     transition: width 250ms, font-size 250ms;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
 
 }
 .answer  button:hover{
@@ -107,6 +116,7 @@ body, html{
     width: fit-content;
     height: fit-content;
     float:left;
+
 }
 .buttons-pause{
     margin: 0;
@@ -121,6 +131,8 @@ body, html{
     width: 50%;
     margin: 0px;
     opacity: 0.6;
+    cursor: pointer;
+
 }
 .buttons-pause input[type=image]{
     padding: 20px 15px 0px 10px;
@@ -129,16 +141,32 @@ body, html{
     margin: 0px;
     scale: 1.4;
     opacity: 0.8;
+    
 }
-div#timeline1 {
-    width: 100%;
-    background: red;
-    display: block;
-}
+.formularz input[type=text]{
+    width: 90%;
+    height: 3rem;
+    background: linear-gradient(109.6deg, rgba(110, 124, 251, 0.27) 11.2% , rgba(156, 252, 247, 0.24) 91.1%);
+    border: 0px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 100%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    cursor: pointer;
 
-div#seekObj1 {
-    width: 20px;
-    height: 20px;
-    background: #000;
-    border-radius: 50%;
+}
+.formularz input[type=text]::placeholder{
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    opacity: 0.6;
+}
+.formularz input[type=text]:focus{
+    outline:none;
+    font: none;
+}
+.formularz input[type=text]:hover{
+    background: linear-gradient(109.6deg, rgba(156, 252, 247, 0.24) 11.2% ,  rgba(110, 124, 251, 0.27) 91.1%);
 }
